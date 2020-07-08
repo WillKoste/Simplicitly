@@ -1,0 +1,2 @@
+export const CUSTOMER_SENT = 'CUSTOMER_SENT';
+export const CUSTOMER_ERROR = 'CUSTOMER_ERROR';

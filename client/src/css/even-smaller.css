@@ -1,0 +1,25 @@
+@media(max-width: 1450px){
+    .white-circle{
+        display: none;
+    }
+
+    #home .home-right p{
+        width: 80%;
+    }
+
+    #home .home-name{
+        font-size: 3.6rem;
+    }
+
+    /* Contact */
+
+    #contact .right-side-secondary .container h1{
+        font-size: 3.6rem;
+    }
+
+    /* About */
+
+    #about p{
+        width: 70%;
+    }
+}

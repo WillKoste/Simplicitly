@@ -1,0 +1,28 @@
+@media(max-width:1750px){
+    .white-circle{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Projects */
+
+    .projects-grid{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
+
+    .projects-grid .item{
+        margin-bottom: 2rem;
+    }
+    
+
+    /* About */
+
+    #about p{
+        width: 55%;
+    }
+
+    /* .showcase{
+        height: 100%;
+    } */
+}

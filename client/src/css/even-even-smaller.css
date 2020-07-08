@@ -1,0 +1,34 @@
+@media(max-width: 1150px){
+  #contact .contact-form{
+    width: 425px;
+  }
+
+  #projects .container{
+    padding: 1rem;
+  }
+
+  #home .home-right p{
+    width: 90%;
+    margin: auto;
+  }
+
+  #home .home-showcase{
+    height: 900px;
+  }
+
+  #home .home-name{
+    font-size: 3.4rem;
+}
+
+  #contact .right-side-secondary .container h1{
+    font-size: 3.4rem;
+  }
+
+  #projects .right-side-secondary h1{
+    font-size: 3.4rem;
+  }
+
+  #about .right-side-secondary h1{
+    font-size: 3.4rem;
+  }
+}

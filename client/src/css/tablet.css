@@ -1,0 +1,133 @@
+@media(max-width: 975px){
+    /* Navbar */
+    
+    /* Home */
+
+    .home-showcase{
+        flex-direction: column;
+    }
+
+    #home #side-nav{
+        height: 160%;
+    }
+
+    .home-left{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 85%, rgba(0,0,0,1) 100%);
+        padding-bottom: 5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .home-left p{
+        width: 65%;
+    }
+
+    #home .fake-body{
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    /* Contact */
+
+    .contact.showcase{
+        height: 1000px;
+    }
+
+    #contact .contact-bottom-two .contact-group i{
+        margin: 0 .5rem;
+        font-size: 1.1rem;
+    }
+
+    #contact .contact-left h1{
+        text-align: center;
+    }
+
+    #contact .right-side-secondary .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact .contact-form{
+        margin-top: 1.5rem;
+        width: 100%;
+    }
+
+    #contact .right-side-secondary .form-container{
+        width: 460px;
+    }
+
+    #contact .right-side-secondary .contact-social-icons{
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    #contact .contact-bottom-two .contact-group .icon-list li i{
+        padding: 1.1rem;
+    }
+
+    #contact .contact-info-container{
+        transform: translateX(17px);
+    }
+
+    #contact .right-side-secondary .container h2{
+        transform: translateX(28px);
+    }
+    
+    /* Projects */
+
+    #projects .container{
+        padding: 1rem;
+      }
+    
+    #projects h1{
+        margin-bottom: 2rem;
+    }
+    
+    .projects-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.2rem;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    /* About */
+
+    #about p{
+        width: 85%;
+    }
+
+    #notfound .container{
+        text-align: center;
+    }
+
+    #notfound p{
+        font-size: 1.1rem;
+    }
+
+    #notfound .other-div{
+        display: flex;
+        justify-content: center;
+    }
+
+    #notfound .lost-graphic{
+        height: 100%;
+        margin: 0;
+        margin-top: 1.5rem;
+    }
+
+    #notfound h1{
+        font-size: 3.4rem;
+    }
+
+    #notfound .notfound-btn{
+        display: inline-block;
+        width: 375px;
+    }
+}

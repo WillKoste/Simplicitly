@@ -1,0 +1,122 @@
+@media(max-width:660px){
+    .toggle-nav{
+        display: block;
+        padding: 1.5rem;
+    }
+
+    .navbar .nav-items ul{
+        display: none;
+    }
+    
+    .left-side-secondary{
+        /* flex: .1; */
+        display: none;
+    }
+
+    /* Home */
+
+    #home .fake-body{
+        margin-top: 2.1rem;
+    }
+
+    #home .slogan{
+        margin-top: 5px;
+    }
+
+    #home h1{
+        font-size: 3.1rem;
+    }
+
+    .home-left p{
+        width: 70%;
+    }
+
+    #home .sign-in-container form{
+        padding: 0 15px;
+        padding-bottom: 1.2rem;
+    }
+
+    #container > div.overlay-container > div > div.overlay-panel.overlay-left > p{
+        font-size: .8rem;
+    }
+
+    /* Contact */
+
+    #contact > div.right-side-secondary > div > div.form-container{
+        width: 100%;
+        max-width: 460px;
+    }
+
+    #contact .contact-bottom-two .contact-group .icon-list li i{
+        padding: .9rem;
+    }
+
+   #toggle-icon.rotate{
+       transform: rotate(90deg);
+   }
+    
+    /* Projects */
+
+    div.right-side-secondary > div {
+        padding: 1rem;
+    }
+
+    #projects .right-side-secondary .container h1{
+        margin-bottom: 2rem;
+        font-size: 3.1rem;
+    }
+    
+    .projects-grid{
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .projects-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .projects-grid .item{
+        height: 230px;
+        width: 85%;
+        margin-bottom: 3rem;
+    }
+
+    .projects-grid .item p{
+        font-size: 1rem;
+    }
+
+    .projects-grid .item img{
+        height: 182px;
+        width: 92%;
+    }
+
+    /* About */
+
+    #about h1{
+        font-size: 3.1rem;
+    }
+    
+    #notfound .notfound-btn{
+        display: inline-block;
+        width: 375px;
+        margin: auto;
+    }
+    
+    #about p{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #notfound .lost-graphic{
+        width: 350px;
+    }
+}
