@@ -15,9 +15,15 @@ const ContactPageForm = ({sendCustomerData}) => {
     setFormData({...formData, [e.target.name]: e.target.value});
   }
 
+  const clearForm = () => {
+    setFormData({name: '', email: ''});
+  }
+
   const onSubmit = e => {
     e.preventDefault();
     sendCustomerData(formData);
+    alert('Your info has been sent!');
+    clearForm();
   }
   
   return (

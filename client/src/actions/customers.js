@@ -24,3 +24,16 @@ export const sendCustomerData = (formData) => async dispatch => {
     });
   }
 }
+
+export const combineForms = () => async dispatch => {
+  const name = document.querySelector('#name').value;
+  const email = document.querySelector('#email').value;
+
+  let joint = document.querySelector('#joint');
+  joint.value = {
+    name,
+    email
+  }
+  alert('It actually freaking works');
+  console.log(joint);
+}

@@ -41,7 +41,7 @@ const IndexForm = ({sendCustomerData}) => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-
+    console.log(formData);
     sendCustomerData(formData);
   }
   
@@ -59,3 +59,25 @@ IndexForm.propTypes = {
 }
 
 export default connect(null, {sendCustomerData})(IndexForm);
+
+
+
+
+
+
+// JOIN FORMDATA
+
+{/* <script type="text/javascript">
+  function join_ym()
+  {
+  var yy = document.getElementById('yy').value;
+  var mm = document.getElementById('mm').value;
+  document.getElementById('joint').value = yy+mm;
+  alert(document.getElementById('joint').value);
+  }
+</script>
+
+<input type="text" id="yy" />
+<input type="text" id="mm" />
+<input type="hidden" id="joint">
+<input type="button" value="Join!" onclick="join_ym();">[/CODE] */}
