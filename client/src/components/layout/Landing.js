@@ -8,17 +8,17 @@ const Landing = () => {
         document.querySelector('#toggle-icon').className = 'fas fa-bars fa-2x';
     }
 
-    const onClick = () => {
-        const signUpButton = document.querySelector('#signUp');
-        const signInButton = document.querySelector('#signIn');
-        const container = document.querySelector('#container');
+    // const onClick = () => {
+    //     const signUpButton = document.querySelector('#signUp');
+    //     const signInButton = document.querySelector('#signIn');
+    //     const container = document.querySelector('#container');
 
-        container.classList.add('right-panel-active');
+    //     container.classList.add('right-panel-active');
 
-        signInButton.addEventListener('click', () => {
-            container.classList.remove('right-panel-active');
-        });
-    }
+    //     signInButton.addEventListener('click', () => {
+    //         container.classList.remove('right-panel-active');
+    //     });
+    // }
     
     return (
         <Fragment>

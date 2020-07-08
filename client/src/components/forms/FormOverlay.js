@@ -1,9 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types'
-import {connect} from 'react-redux';
-import {combineForms} from '../../actions/customers';
 
-const FormOverlay = ({combineForms}) => {
+const FormOverlay = () => {
   const onClick = (e) => {
     const signInButton = document.querySelector('#signIn');
     const container = document.querySelector('#container');
@@ -13,8 +10,6 @@ const FormOverlay = ({combineForms}) => {
     signInButton.addEventListener('click', () => {
         container.classList.remove('right-panel-active');
     });
-
-    combineForms();
   }
   
   return (
@@ -35,8 +30,4 @@ const FormOverlay = ({combineForms}) => {
   )
 }
 
-FormOverlay.propTypes = {
-  combineForms: PropTypes.func.isRequired
-}
-
-export default connect(null, {combineForms})(FormOverlay);
+export default FormOverlay;

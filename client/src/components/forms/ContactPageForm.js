@@ -8,9 +8,7 @@ const ContactPageForm = ({sendCustomerData}) => {
     name: '',
     email: ''
   });
-
-  const {name, email} = formData;
-
+  
   const onChange = e => {
     setFormData({...formData, [e.target.name]: e.target.value});
   }

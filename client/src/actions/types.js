@@ -1,2 +1,3 @@
 export const CUSTOMER_SENT = 'CUSTOMER_SENT';
 export const CUSTOMER_ERROR = 'CUSTOMER_ERROR';
+export const SEND_LONG_FORM = 'SEND_LONG_FORM';

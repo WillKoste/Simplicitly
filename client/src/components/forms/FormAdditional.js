@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FormAdditional = ({onChange, nextStep, onSubmit}) => {
+const FormAdditional = ({onChange, onSubmit}) => {
   return (
     <div className="form-container sign-up-container">
       <form id="secondary-form" className="form-create" onSubmit={e => onSubmit(e)}>
