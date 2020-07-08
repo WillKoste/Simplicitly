@@ -31,8 +31,10 @@
     /* Contact */
 
     .contact.showcase{
-        height: 1000px;
+        height: 1100px;
     }
+
+   
 
     #contact .contact-bottom-two .contact-group i{
         margin: 0 .5rem;

@@ -9,9 +9,7 @@ export const sendCustomerData = (formData) => async dispatch => {
       }
     }
 
-    const body = JSON.stringify(formData);
-
-    const res = await axios.post('http://localhost:5000', body, config);
+    const res = await axios.post('/api/customers', formData, config);
 
     dispatch({
       type: CUSTOMER_SENT,
@@ -19,6 +17,7 @@ export const sendCustomerData = (formData) => async dispatch => {
     });
   } catch (err) {
     console.error(err);
+    console.log('This is whats wrong');
     dispatch({
       type: CUSTOMER_ERROR,
       payload: 'Does not work'
