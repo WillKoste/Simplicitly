@@ -10,6 +10,7 @@ const colors = require('colors');
 const app = express();
 
 connectDB();
+console.log('hey')
 
 app.use(cors());
 
