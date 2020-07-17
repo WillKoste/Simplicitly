@@ -489,11 +489,12 @@ ul{
   color: #fff;
   border: 0;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .contact-submit:active{
   transform: scale(.98);
-  transition: transform .2s ease-in;
+  transition: transform .15s ease-in;
 }
 
 .contact-submit:focus{
@@ -645,6 +646,7 @@ ul{
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: transform .08s ease-in;
+  cursor: pointer;
 }
 
 #home button:active{
@@ -659,6 +661,7 @@ ul{
 #home button.ghost{
   background: transparent;
   border: #fff 1px solid;
+  cursor: pointer;
 }
 
 #home .container{
@@ -916,7 +919,7 @@ ul{
 #home .home-right p a{
   color: var(--primary-color);
   font-weight: bold;
-  font-size: 1.37rem;
+  font-size: 1.3rem;
 }
 
 #about .resume-btn{
@@ -928,4 +931,8 @@ ul{
   margin-bottom: .5rem;
   padding: .5rem .85rem;
   background: #9a0505;
+}
+
+#about .resume-btn:active{
+  transform: scale(.98);
 }
