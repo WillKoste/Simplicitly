@@ -12,8 +12,12 @@
     margin: auto;
   }
 
-  #home .home-showcase{
-    height: 900px;
+  #home .container{
+    width: 500px;
+  }
+
+  .home-showcase{
+    height: 840px;
   }
 
   #home .home-name{

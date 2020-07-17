@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import {Link} from 'react-router-dom';
 import SideNav from './SideNav';
 import IndexForm from '../forms/IndexForm';
 
@@ -80,7 +81,7 @@ const Landing = () => {
                 </div> 
                 <div class="home-right" onClick={closeSideNav}>
                     <div class="home-image"></div>
-                    <p>With experience in multiple web development technologies, including: node.js, React, HTML, Javascript, etc. - My goal is to help </p>
+                    <p>With experience in multiple web development technologies, including: Node.js, React, HTML, CSS, JavaScript, etc. - my goal is to help solve the problems that individuals and companies face every day. After years of experience in a leadersip role within a company, I have developed many skills that can be used in collaborative work environments as well as independently. <Link to="/about" className="resume-cta">Click here</Link> to view my resume and learn more.</p>
                 </div>
             </section>
         </Fragment>

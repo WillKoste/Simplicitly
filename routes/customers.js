@@ -44,11 +44,11 @@ router.post('/', [
       <p>You have a new contact request!</p>
       <h1>Contact Details</h1>
       <ul>
-        <li>Name: ${name}</li>
-        <li>Email: ${email}</li>
-        <li>Phone: ${phone ? phone : 'N/A'}</li>
-        <li>Current Tech: ${currentTech ? currentTech : 'N/A'}</li>
-        <li>Goal: ${goal ? goal : 'N/A'} </li>
+        <li><strong>Name:</strong> ${name}</li>
+        <li><strong>Email:</strong> ${email}</li>
+        <li><strong>Phone:</strong> ${phone ? phone : 'N/A'}</li>
+        <li><strong>Current Tech:</strong> ${currentTech ? currentTech : 'N/A'}</li>
+        <li><strong>Goal:</strong> ${goal ? goal : 'N/A'} </li>
       </ul>
       <h2>Message</h2>
       <p>${message ? message : 'N/A'}</p>

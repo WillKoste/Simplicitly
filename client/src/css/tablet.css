@@ -28,6 +28,10 @@
         margin-bottom: 1rem;
     }
 
+    #home .container{
+        width: 550px;
+    }
+
     /* Contact */
 
     .contact.showcase{
