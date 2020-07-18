@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux';
 import {sendCustomerData} from '../../actions/customers';
+import {ToastContainer, toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ContactPageForm = ({sendCustomerData}) => {
   const [formData, setFormData] = useState({
@@ -13,12 +15,25 @@ const ContactPageForm = ({sendCustomerData}) => {
     setFormData({...formData, [e.target.name]: e.target.value});
   }
 
+  const resetState = () => {
+    document.querySelector('#name-input').value = '';
+    document.querySelector('#email-input').value = '';
+  }
+
+  const notify = () => {
+    if(formData.email ===  '' || formData.name === ''){
+      toast.error('Name and email fields are required');
+      setFormData({name: '', email: ''});
+    } else{
+      toast.success('Info submitted');
+    }
+  }
+
   const onSubmit = e => {
     e.preventDefault();
     sendCustomerData(formData);
-    alert('Your info has been sent!');
-    setFormData({name: '', email: ''});
-    console.log('It should have cleared')
+    notify();
+    resetState();
   }
   
   return (
@@ -34,6 +49,7 @@ const ContactPageForm = ({sendCustomerData}) => {
         </div>
         <input type="submit" value="Submit" className="contact-submit" />
       </form>
+      <ToastContainer pauseOnHover={false} />
     </div>
   )
 }

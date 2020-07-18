@@ -936,3 +936,7 @@ ul{
 #about .resume-btn:active{
   transform: scale(.98);
 }
+
+.Toastify__progress-bar{
+  color: yellow;
+}

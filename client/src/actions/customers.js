@@ -18,7 +18,6 @@ export const combineForms = () => async dispatch => {
     currentTech,
     goal
   }
-  alert('It actually freaking works');
   console.log(joint);
   return joint;
 }
@@ -32,11 +31,8 @@ export const sendCustomerData = (formData) => async dispatch => {
     }
 
     combineForms();
-    console.log(formData)
 
     const res = await axios.post('http://localhost:5000/api/customers', formData, config);
-
-    console.info(res.data)
     
     dispatch({
       type: CUSTOMER_SENT,
@@ -44,7 +40,7 @@ export const sendCustomerData = (formData) => async dispatch => {
     });
   } catch (err) {
     console.error(err);
-    console.log('Fuck this form');
+    console.log('Bad Request');
     dispatch({
       type: CUSTOMER_ERROR,
       payload: 'Does not work'
