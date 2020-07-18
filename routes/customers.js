@@ -46,12 +46,12 @@ router.post('/', [
       <ul>
         <li><strong>Name:</strong> ${name}</li>
         <li><strong>Email:</strong> ${email}</li>
-        <li><strong>Phone:</strong> ${phone ? phone : 'N/A'}</li>
-        <li><strong>Current Tech:</strong> ${currentTech ? currentTech : 'N/A'}</li>
-        <li><strong>Goal:</strong> ${goal ? goal : 'N/A'} </li>
+        <li><strong>Phone:</strong> ${phone ? phone : '--'}</li>
+        <li><strong>Current Tech:</strong> ${currentTech ? currentTech : '--'}</li>
+        <li><strong>Goal:</strong> ${goal ? goal : '--'} </li>
       </ul>
       <h2>Message</h2>
-      <p>${message ? message : 'N/A'}</p>
+      <p>${message ? message : '--'}</p>
     `;
     
     let transporter = nodemailer.createTransport({

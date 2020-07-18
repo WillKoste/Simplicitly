@@ -37,7 +37,7 @@ const IndexForm = ({sendCustomerData, combineForms}) => {
     let allFields = await combineForms();
 
     if(allFields.name === '' || allFields.email === ''){
-      toast.error('Name and email fields required, please try again');
+      toast.error('Name and email fields required');
       setFormData({
         name: '',
         email: '',
