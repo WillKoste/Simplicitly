@@ -55,6 +55,10 @@
         padding: .9rem;
     }
 
+    #contact .contact-bottom-two .contact-group{
+        padding: 1.5rem 0;
+    }
+
    #toggle-icon.rotate{
        transform: rotate(90deg);
    }

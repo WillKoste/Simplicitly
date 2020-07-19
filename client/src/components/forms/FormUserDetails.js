@@ -9,10 +9,10 @@ const FormUserDetails = () => {
         <input type="name" name="name" id="name" required />
         <label htmlFor="email">Email *</label>
         <input type="email" name="email" id="email"required />
-        <label htmlFor="phone">Phone *</label>
-        <input type="text" name="phone" id="phone"required />
-        <label htmlFor="message">Message *</label>
-        <textarea name="message" id="message-area" required cols="30" rows="10"></textarea>
+        <label htmlFor="phone">Phone</label>
+        <input type="text" name="phone" id="phone" />
+        <label htmlFor="message">Message</label>
+        <textarea name="message" id="message-area" cols="30" rows="10"></textarea>
       </form>
     </div>
   )

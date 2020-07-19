@@ -1,6 +1,6 @@
 :root{
   --primary-color: #C92A2A;
-
+  --secondary-color: #6C3042;
 }
 
 *{
@@ -171,7 +171,7 @@ ul{
   /* border-top: 3px solid rgb(123,8,8); */
   border-bottom: 2px solid rgb(109,8,8);
   background: rgb(87,86,86);
-  background: linear-gradient(0deg, rgb(77, 76, 76) 30%, rgba(97,97,97,1) 100%);
+  /* background: linear-gradient(0deg, rgb(77, 76, 76) 30%, rgba(97,97,97,1) 100%); */
 }
 
 #side-nav.toggled{
@@ -234,7 +234,7 @@ ul{
 } */
 
 #home .home-image{
-  background: url('../images/the-actual-selfie.png') no-repeat left top/cover;
+  background: url('../images/the-actual-selfie-two.png') no-repeat center center/cover;
   width: 90%;
   max-width: 650px;
   margin: auto;
@@ -412,7 +412,7 @@ ul{
 }
 
 #contact .contact-bottom-two .contact-group .icon-list li i{
-  background: green;
+  background: rgb(36, 87, 36);
   padding: 1.1rem;
   border-radius: 50%;
 }
@@ -544,7 +544,7 @@ ul{
 }
 
 #projects .projects-desc{
-  color: #9c1111;
+  color: var(--primary-color);
 }
 
 /* About */
@@ -937,6 +937,10 @@ ul{
   transform: scale(.98);
 }
 
-.Toastify__progress-bar{
-  color: yellow;
+.Toastify__toast.Toastify__toast--error{
+  background: #b46600;
+}
+
+.Toastify__toast.Toastify__toast--success{
+  background: #3d6c3e;
 }
