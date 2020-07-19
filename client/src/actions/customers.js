@@ -33,6 +33,8 @@ export const sendCustomerData = (formData) => async dispatch => {
     combineForms();
 
     const res = await axios.post('http://localhost:5000/api/customers', formData, config);
+
+    console.log('Didnt make it to the dispatch');
     
     dispatch({
       type: CUSTOMER_SENT,

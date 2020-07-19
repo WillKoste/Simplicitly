@@ -26,6 +26,7 @@ const ContactPageForm = ({sendCustomerData}) => {
       setFormData({name: '', email: ''});
     } else{
       toast.success('Info submitted');
+      console.log('Contact info should be submitted');
       setFormData({name: '', email: ''});
     }
   }

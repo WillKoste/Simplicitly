@@ -20,8 +20,6 @@ if(process.env.NODE_ENV === 'development'){
   app.use(morgan('dev'));
 }
 
-app.use('/api/customers', require('./routes/customers'));
-
 if(process.env.NODE_ENV === 'production' || 'development'){
   app.use(express.static('client/build'));
 
@@ -29,6 +27,8 @@ if(process.env.NODE_ENV === 'production' || 'development'){
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
   });
 }
+
+app.use('/api/customers', require('./routes/customers'));
 
 const port = process.env.PORT || 5000;
 
