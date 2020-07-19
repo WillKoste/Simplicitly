@@ -234,7 +234,7 @@ ul{
 } */
 
 #home .home-image{
-  background: url('../images/the-actual-selfie-two.png') no-repeat center center/cover;
+  background: url('../images/try-this.png') no-repeat center center/cover;
   width: 90%;
   max-width: 650px;
   margin: auto;
@@ -412,7 +412,7 @@ ul{
 }
 
 #contact .contact-bottom-two .contact-group .icon-list li i{
-  background: rgb(36, 87, 36);
+  background: #155a15;
   padding: 1.1rem;
   border-radius: 50%;
 }

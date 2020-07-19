@@ -16,7 +16,7 @@ const Landing = () => {
             <section id="home" className="home-showcase">
                 <SideNav />
                 <div className="home-left" onClick={closeSideNav}>
-                    <h1 className="home-name">Let's Make It Happen</h1>
+                    <h1 className="home-name">Implicitly Simple</h1>
                     <p className="slogan">Full-Stack Web Develpoment</p>
                     <div className="fake-body">
                         <div className="container" id="container">

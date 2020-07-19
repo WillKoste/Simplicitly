@@ -71,8 +71,13 @@
         margin-top: 2rem;
     }
 
+    #contact .contact-bottom-two .contact-group .icon-list li{
+        margin-right: .5rem;
+    }
+
     #contact .contact-bottom-two .contact-group .icon-list li i{
         padding: 1.1rem;
+        font-size: 1.2rem;
     }
 
     #contact .contact-info-container{

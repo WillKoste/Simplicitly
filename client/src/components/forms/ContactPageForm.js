@@ -22,7 +22,7 @@ const ContactPageForm = ({sendCustomerData}) => {
 
   const notify = () => {
     if(formData.email ===  '' || formData.name === ''){
-      toast.error('Name and email fields are required');
+      toast.error('Name and email fields required');
       setFormData({name: '', email: ''});
     } else{
       toast.success('Info submitted');

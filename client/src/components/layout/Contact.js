@@ -34,11 +34,10 @@ const Contact = () => {
                 <h3>Socials</h3>
                 <div>
                   <ul className="icon-list">
-                    <li><a href="https://github.com/simplicitly" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+                    <li><a href="https://github.com/willkoste" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
                     <li><a href="https://linkedin.com/in/will-koste" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
                     <li><a href="https://facebook.com/will.koste" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/simplicitly1" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
-                    <li><a href="#y" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a></li>
+                    <li><a href="https://discord.gg/8PmsemV" target="_blank" rel="noopener noreferrer"><i className="fab fa-discord"></i></a></li>
                   </ul>
                 </div>
               </div>
