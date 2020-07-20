@@ -32,7 +32,7 @@ export const sendCustomerData = (formData) => async dispatch => {
 
     combineForms();
 
-    const res = await axios.post('/api/customers', formData, config);
+    const res = await axios.post('http://simplicitly.net/api/customers', formData, config);
     
     dispatch({
       type: CUSTOMER_SENT,
