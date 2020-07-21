@@ -20,7 +20,7 @@ if(process.env.NODE_ENV === 'development'){
   app.use(morgan('dev'));
 }
 
-app.use('/api/customers', require('./routes/customers'));
+app.use('https://simplicitly.net/api/customers', require('./routes/customers'));
 
 if(process.env.NODE_ENV === 'production' || 'development'){
   app.use(express.static('client/build'));
