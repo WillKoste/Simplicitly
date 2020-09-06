@@ -36,7 +36,7 @@ if(process.env.NODE_ENV === 'development'){
 
 app.use('/api/customers', require('./routes/customers'));
 
-if(process.env.NODE_ENV === 'production'){
+if(process.env.NODE_ENV === 'production' || 'development'){
   app.use(express.static('client/build'));
 
   app.get('*', (req, res) => {
