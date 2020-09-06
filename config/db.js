@@ -11,8 +11,7 @@ const connectDB = async () => {
       useFindAndModify: false
     });
 
-    console.log('MongoDataBase is now connected, sir'.magenta.bold)
-    console.log('hey');
+    console.log('MongoDataBase is now connected, sir'.magenta.bold);
   } catch (err) {
     console.error(err)
     process.exit(1);
