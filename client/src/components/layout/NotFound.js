@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import SideNav from './SideNav';
-import graphic from '../../images/dalmatian.png'
+import graphic from '../../images/dalmatian-min.png'
 
 const NotFound = () => {
   const closeSideNav = () => {

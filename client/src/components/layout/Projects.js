@@ -4,7 +4,7 @@ import DevConnector from '../../images/devconnector-home-min.png';
 import MyThreeDogs from '../../images/My Three Dogs-min.PNG';
 import LyricSearch from '../../images/lyric-search-min.PNG';
 import AdminPanel from '../../images/admin-mockup.png';
-import Chatroom from '../../images/phone-mockup.png';
+import Chatroom from '../../images/phone-mockup-min.png';
 import NextStepsEdu from '../../images/NextStepsEdu-min.png';
 
 const Projects = () => {
