@@ -16,12 +16,13 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="nav-items">
-                <Link to="/"><img alt="Logo" src={logo} className="logo" /></Link>
+                <Link to="/"><img alt="Simplicitly, Full-Stack Web Development - Logo" src={logo} className="logo" /></Link>
                 <ul>
                     <li><NavLink exact to="/" activeClassName="current">Home</NavLink></li>
                     <li><NavLink exact to="/contact" activeClassName="current">Contact</NavLink></li>
                     <li><NavLink exact to="/projects" activeClassName="current">Projects</NavLink></li>
                     <li><NavLink exact to="/about" activeClassName="current">About</NavLink></li>
+                    <li><NavLink exact to="/sitemap.xml" activeClassName="current" style={{display:'none'}}>Sitemap</NavLink></li>
                 </ul>
                 <div id="toggle-nav" className="toggle-nav">
                     <Link id="nav-bars" to="#!" onClick={onClick}><i id="toggle-icon" className="fas fa-bars fa-2x"></i></Link>

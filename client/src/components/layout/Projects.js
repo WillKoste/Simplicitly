@@ -21,27 +21,27 @@ const Projects = () => {
           <h1>Projects</h1>
           <div className="projects-grid">
             <div className="item">
-              <a href="https://willscooltestdomain.com" target="_blank" rel="noopener noreferrer"><img src={DevConnector} alt="DevConnector"/></a>
-              <a href="https://willscooltestdomain.com"><p>DevConnector - <span className="projects-desc">MERN</span></p></a>
+              <a href="https://willscooltestdomain.com" target="_blank" rel="noopener noreferrer"><img src={DevConnector} alt="DevConnector - Simplicitly - MERN"/></a>
+              <a href="https://willscooltestdomain.com" target="_blank" rel="noopener noreferrer"><p>DevConnector - <span className="projects-desc">MERN</span></p></a>
             </div>
             <div className="item">
-              <a href="https://doobiedalmatian.com" target="_blank" rel="noopener noreferrer"><img src={MyThreeDogs} alt="My Three Dogs"/></a>
+              <a href="https://doobiedalmatian.com" target="_blank" rel="noopener noreferrer"><img src={MyThreeDogs} alt="My Three Dogs - Simplicitly - WordPress"/></a>
               <a href="https://doobiedalmatian.com" target="_blank" rel="noopener noreferrer"><p>My Three Dogs - <span className="projects-desc">Wordpress</span></p></a>
             </div>
             <div className="item">
-              <a href="https://lyric-search-1234.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={LyricSearch} alt="Lyric Search"/></a>
+              <a href="https://lyric-search-1234.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={LyricSearch} alt="Lyric Search - Simplicitly - React"/></a>
               <a href="https://lyric-search-1234.netlify.app/" target="_blank" rel="noopener noreferrer"><p>Lyric Search - <span className="projects-desc">React</span></p></a>
             </div>
             <div className="item">
-              <a href="https://tender-liskov-02d343.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={AdminPanel} alt="Admin Panel"/></a>
+              <a href="https://tender-liskov-02d343.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={AdminPanel} alt="Admin Panel - Simplicitly - HTML/CSS/JS"/></a>
               <a href="https://tender-liskov-02d343.netlify.app/" target="_blank" rel="noopener noreferrer"><p>Admin Panel - <span className="projects-desc">HTML/CSS/JS</span></p></a>
             </div>
             <div className="item">
-              <a href="https://agile-ocean-07461.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={Chatroom} alt="Chat App"/></a>
+              <a href="https://agile-ocean-07461.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={Chatroom} alt="Chat App - Simplicitly - Node, Express, Socket.io"/></a>
               <a href="https://agile-ocean-07461.herokuapp.com/" target="_blank" rel="noopener noreferrer"><p>Chatroom - <span className="projects-desc">Node/Express</span></p></a>
             </div>
             <div className="item">
-              <a href="https://stoic-golick-7489c5.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={NextStepsEdu} alt="NextSteps Edu"/></a>
+              <a href="https://stoic-golick-7489c5.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={NextStepsEdu} alt="NextSteps Edu - Simplicitly - HTML/CSS"/></a>
               <a href="https://stoic-golick-7489c5.netlify.app/" target="_blank" rel="noopener noreferrer"><p>NextSteps Edu - <span className="projects-desc">HTML/CSS</span></p></a>
             </div>
           </div>

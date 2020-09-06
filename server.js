@@ -5,6 +5,11 @@ dotenv.config({path: './config/config.env'});
 const connectDB = require('./config/db');
 const morgan = require('morgan');
 const cors = require('cors');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
+const hpp = require('hpp');
+const xss = require('xss-clean');
+const sanitize = require('express-mongo-sanitize');
 const colors = require('colors');
 
 const app = express();
@@ -16,13 +21,22 @@ app.use(cors());
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 
+app.use(helmet());
+app.use(hpp());
+app.use(xss());
+app.use(sanitize());
+app.use(rateLimit({
+  windowMs: 60 * 1000 * 15,
+  max: 150
+}));
+
 if(process.env.NODE_ENV === 'development'){
   app.use(morgan('dev'));
 }
 
 app.use('/api/customers', require('./routes/customers'));
 
-if(process.env.NODE_ENV === 'production' || 'development'){
+if(process.env.NODE_ENV === 'production'){
   app.use(express.static('client/build'));
 
   app.get('*', (req, res) => {
