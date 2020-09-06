@@ -22,13 +22,6 @@ app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 
 app.use(helmet());
-app.use(hpp());
-app.use(xss());
-app.use(sanitize());
-app.use(rateLimit({
-  windowMs: 60 * 1000 * 15,
-  max: 150
-}));
 
 if(process.env.NODE_ENV === 'development'){
   app.use(morgan('dev'));
