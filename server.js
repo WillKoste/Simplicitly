@@ -11,12 +11,14 @@ const hpp = require('hpp');
 const xss = require('xss-clean');
 const sanitize = require('express-mongo-sanitize');
 const colors = require('colors');
+const { worker } = require('cluster');
 
 const app = express();
 
 connectDB();
 
 app.use(cors());
+worker
 
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
