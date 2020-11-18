@@ -18,7 +18,7 @@ const About = () => {
 				<div className='right-side-secondary' onClick={closeSideNav}>
 					<div className='container'>
 						<h1>About</h1>
-						<a className='resume-btn' href='https://drive.google.com/file/d/1-TuvXW6fxI0zYWyrBqfMkCZHhZGL8eAW/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+						<a className='resume-btn' href='https://drive.google.com/file/d/1gAoM7NTGC1MnF_DDErUmJ9uV9pKYDvhQ/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
 							View My Resume
 						</a>
 						<p>
