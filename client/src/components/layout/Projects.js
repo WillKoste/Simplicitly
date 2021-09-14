@@ -28,17 +28,17 @@ const Projects = () => {
 							</a>
 							<a href='https://web-scheduler-production.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
 								<p>
-									DevConnector - <span className='projects-desc'>MERN</span>
+									Web Scheduler - <span className='projects-desc'>MERN</span>
 								</p>
 							</a>
 						</div>
 						<div className='item'>
 							<a href='https://dev-connector-wkoste.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
-								<img src={DevConnector} alt='Trinity Inspection SC - Simplicitly - WordPress' />
+								<img src={DevConnector} alt='DevConnector - Simplicitly - MERN' />
 							</a>
 							<a href='https://dev-connector-wkoste.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
 								<p>
-									Trinity Inspection SC - <span className='projects-desc'>Wordpress</span>
+									DevConnector - <span className='projects-desc'>MERN</span>
 								</p>
 							</a>
 						</div>
