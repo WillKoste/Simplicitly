@@ -7,6 +7,7 @@ import AdminPanel from '../../images/admin-mockup.png';
 import Chatroom from '../../images/phone-mockup-min.png';
 import NextStepsEdu from '../../images/NextStepsEdu-min.png';
 import Trinity from '../../images/trinity-min.png';
+import WebScheduler from '../../images/ma-web-scheduler.png';
 
 const Projects = () => {
 	const closeSideNav = (e) => {
@@ -22,20 +23,20 @@ const Projects = () => {
 					<h1>Projects</h1>
 					<div className='projects-grid'>
 						<div className='item'>
-							<a href='https://willscooltestdomain.com' target='_blank' rel='noopener noreferrer'>
-								<img src={DevConnector} alt='DevConnector - Simplicitly - MERN' />
+							<a href='https://web-scheduler-production.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+								<img src={WebScheduler} alt='Web Scheduler - MERN' />
 							</a>
-							<a href='https://willscooltestdomain.com' target='_blank' rel='noopener noreferrer'>
+							<a href='https://web-scheduler-production.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
 								<p>
 									DevConnector - <span className='projects-desc'>MERN</span>
 								</p>
 							</a>
 						</div>
 						<div className='item'>
-							<a href='https://trinityinspectionsc.com' target='_blank' rel='noopener noreferrer'>
-								<img src={Trinity} alt='Trinity Inspection SC - Simplicitly - WordPress' />
+							<a href='https://dev-connector-wkoste.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+								<img src={DevConnector} alt='Trinity Inspection SC - Simplicitly - WordPress' />
 							</a>
-							<a href='https://trinityinspectionsc.com' target='_blank' rel='noopener noreferrer'>
+							<a href='https://dev-connector-wkoste.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
 								<p>
 									Trinity Inspection SC - <span className='projects-desc'>Wordpress</span>
 								</p>
