@@ -27,7 +27,7 @@ const Landing = () => {
 				<div class='home-right' onClick={closeSideNav}>
 					<div class='home-image'></div>
 					<p>
-						With experience in multiple web development technologies, including: Node.js, React, HTML, CSS, JavaScript, etc. - my goal is to help solve the problems that individuals and companies face every day. After years of experience in a leadership role within a company, I have developed many skills that can be used in collaborative work environments as well as independently.{' '}
+						Hello- thank you for taking a moment to check out my portfolio! With experience in the web development industry, as well as in-depth knowledge of some of today's most popular technologies, I am looking to join a team of other dedicated individuals to create something impactful in the world. I specialize in the MERN stack, but always look forward to learning something new.{' '}
 						<Link to='/about' className='resume-cta'>
 							Click here
 						</Link>{' '}
